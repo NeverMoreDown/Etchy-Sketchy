@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet"  href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div id="container">
@@ -13,9 +14,10 @@
             <div id="colorOptions">
                 <div id="bw">Black & White</div>
                 <div id="randomRGB">Random RGB</div>
-                <div id="pencil">Pencil</div>
             </div>
-            <div id="sliderContainer">SLYDER-PLACER</div>
+            <div id="sliderContainer">
+                <input type="range" min="1" max="100" step="1" value="64" class="slider" id="myRange">
+            </div>
         </div>
         <div id="grid"></div>
     </div>
